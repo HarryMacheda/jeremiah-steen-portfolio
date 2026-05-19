@@ -1,0 +1,46 @@
+.about-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 100px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.about-container span {
+   font-family: "Archivo Normal", sans-serif;
+   font-weight: 500;
+   font-size: 24px; 
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 40%;
+    height: 100%;
+}
+
+.contact-container span {
+   font-family: "Archivo Normal", sans-serif;
+   font-weight: 500;
+   font-size: 24px; 
+}
+
+.contact-container span {
+   font-family: "Archivo Normal", sans-serif;
+   font-weight: 500;
+   font-size: 24px;
+   color: var(--theme-dark); 
+}
+.contact-container span a{
+    text-decoration: none;
+    color: var(--theme-dark);
+}
