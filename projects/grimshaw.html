@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Jeremiah Steen — Portfolio</title>
+		<meta name="description" content="Portfolio of Jeremiah Steen" />
+        <meta name="author" content="Jeremiah Steen, Harry Macheda" />
+        <meta name="keywords" content="Jeremiah Steen, Harry Macheda, Design, Portfolio, Web Design, UI/UX, Branding, Typography, 
+            3D Design, 3D Modeling, Photography, Motion Graphics, Publication Design, Logo Design, Product Photography, Live Photography,
+            Anomalous, Enstro, The HERE project, Anex 3D, Who's in Control, Grimshaw Band, Portrait Photography, Web Ux/Ui, Brand Identity" 
+        />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="../styles/variables.css" />
+        <link rel="stylesheet" href="../styles/components.css" />
+        <link rel="stylesheet" href="../styles/menu.css" />
+        <link rel="stylesheet" href="../styles/project-page.css" />
+    </head>
+	<body>
+		<menu>
+            <div class="title">
+                <a href="/">JEREMIAH STEEN.</a>
+            </div>
+            <div class="links">
+                <a href="../">Work</a>
+                <a href="../about.html">About</a>
+                <a href="../about.html">Contact</a>
+            </div>
+        </menu>
+        <main class="project-page"> 
+            <div class="project-hero">
+                <div class="project-hero-image" style="background-image: url('../assets/grimshaw/banner.JPG')"></div>
+            </div>
+
+            <div class="project-description">
+                <span class="comp-body">
+                    Grimshaw Band is a punk metal band based in Melbourne.                
+                </span>
+            <div id="project-gallery" class="project-gallery"></div>
+
+            <script>
+                window.projectGalleryConfig = {
+                    basePath: '../assets/grimshaw/',
+                    rows: [
+                        [
+                            { src: '1.jpg', alt: '', description: '' },
+                            { src: '2.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '3.jpg', alt: '', description: '' },
+                            { src: '4.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '5.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '6.jpg', alt: '', description: '' },
+                            { src: '7.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '8.jpg', alt: '', description: '' },
+                            { src: '9.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '10.jpg', alt: '', description: '' },
+                            { src: '11.mov', alt: '', description: '', type: 'video' },
+                        ],
+                        [
+                            { src: '12.jpg', alt: '', description: '' },
+                        ]
+                    ]
+                };
+            </script>
+            <script src="../scripts/project-gallery.js" defer></script>
+
+            <div class="project-conclusion">
+                <div class="left-panel">
+                    <span class="comp-title">Brief.</span>
+                    <span class="comp-body">
+                        Grimshaw Band hires me as their photographer for their live performances, and commissioned me to produce a ten-second animation for Instagram to promote their new demo, ‘Black eyes.’                    
+                        <span class="comp-title" style="margin-top: 2rem;">Response.</span>
+                    <span class="comp-body">
+                        For their live performances, a custom style has been developed to reflect the band. Soft tones of blue sit in the shadows, and orange in the highlights, reflecting the band’s colours paired with a high grain image to make the tone feel dark and grungy, representing the sound of the band in a visual form.
+                    </span>
+                    <span class="comp-body">
+                        For ‘Black Eye’s’ animation, I took inspiration from the UK’s punk rock scene of the 1970s, with the premise focused on the aftermath of a bar fight. Produced with handmade paper assets photographed to create a random sense of movement that has a sense of physicality and texture to reference the independent, handmade production of the punk scene.
+                    </span>
+                </div>
+                <div class="right-panel">
+                    <span class="comp-title">Services.</span>
+                    <span class="comp-body">
+                        Live Photography
+                    </span>
+                    <span class="comp-body">
+                        Motion Graphics
+                    </span>
+                </div>
+            </div>
+
+        </main>          
+        <div id="sticky-header" class="sticky-header" aria-hidden="true">
+            <div class="sticky-inner">
+                <div class="title">
+                    <a href="../">JEREMIAH STEEN.</a>
+                </div>   
+            </div>
+        </div>
+        
+        <script src="../scripts/sticky-header.js" defer></script>
+    </body>
+</html>

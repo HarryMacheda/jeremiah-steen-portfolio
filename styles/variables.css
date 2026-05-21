@@ -18,3 +18,8 @@ main {
 html {
     background-color: var(--theme-background);
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}

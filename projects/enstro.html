@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Jeremiah Steen — Portfolio</title>
+		<meta name="description" content="Portfolio of Jeremiah Steen" />
+        <meta name="author" content="Jeremiah Steen, Harry Macheda" />
+        <meta name="keywords" content="Jeremiah Steen, Harry Macheda, Design, Portfolio, Web Design, UI/UX, Branding, Typography, 
+            3D Design, 3D Modeling, Photography, Motion Graphics, Publication Design, Logo Design, Product Photography, Live Photography,
+            Anomalous, Enstro, The HERE project, Anex 3D, Who's in Control, Grimshaw Band, Portrait Photography, Web Ux/Ui, Brand Identity" 
+        />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="../styles/variables.css" />
+        <link rel="stylesheet" href="../styles/components.css" />
+        <link rel="stylesheet" href="../styles/menu.css" />
+        <link rel="stylesheet" href="../styles/project-page.css" />
+    </head>
+	<body>
+		<menu>
+            <div class="title">
+                <a href="/">JEREMIAH STEEN.</a>
+            </div>
+            <div class="links">
+                <a href="../">Work</a>
+                <a href="../about.html">About</a>
+                <a href="../about.html">Contact</a>
+            </div>
+        </menu>
+        <main class="project-page"> 
+            <div class="project-hero">
+                <div class="project-hero-image" style="background-image: url('../assets/enstro/hero.jpg')"></div>
+            </div>
+
+            <div class="project-description">
+                <span class="comp-body">
+                    Enstro is a professional services consultancy that bridges the gap between strategy and implementation for digital and physical infrastructure projects. They combine strategic planning with hands-on implementation. While traditional consultancies deliver reports and walk away, they stay to execute.                
+                </span>
+            </div>
+
+            <div id="project-gallery" class="project-gallery"></div>
+
+            <script>
+                window.projectGalleryConfig = {
+                    basePath: '../assets/enstro/',
+                    rows: [
+                        [
+                            { src: '1.jpg', alt: '', description: '' },
+                            { src: '2.jpg', alt: '', description: '' },
+                            { src: '3.jpg', alt: '', description: '' }
+                        ],
+                        [
+                            { src: '4.jpg', alt: '', description: '' }
+                        ],
+                        [
+                            { src: '5.jpg', alt: '', description: '' },
+                            { src: '6.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '7.jpg', alt: '', description: '' },
+                            { src: '8.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '9.jpg', alt: '', description: '' },
+                        ]
+                    ]
+                };
+            </script>
+            <script src="../scripts/project-gallery.js" defer></script>
+
+            <div class="project-conclusion">
+                <div class="left-panel">
+                    <span class="comp-title">Brief.</span>
+                    <span class="comp-body">
+                        The goal of this project was to design a logo and logomark for Enstro that separates itself from traditional I.T consultant agencies, that feels softer and more approachable, signifying partnerships and collaboration while maintaining professionalism and legibility with subtle references to the technical infrastructure.                    
+                    </span>
+                    <span class="comp-title" style="margin-top: 2rem;">Response.</span>
+                    <span class="comp-body">
+                        To create an approachable identity for the brand, a grotesque typeface with soft, rounded corners was sought to create a gentle approach that maintains its professionalism and legibility but still feels soft and approachable. Lower-case lettering was chosen to aid in its approachable communication.                    
+                    </span>
+                    <span class="comp-body">
+                        Inspired by the traces on a circuit board, the &lsquo;e&rsquo; has been modified to create a distinct typeface that adds a visual point of interest in the typeface, while creating a distinct logo mark for the company, which brings a subtle reference to the industry.                    
+                    </span>
+                    <span class="comp-body">
+                        Three custom colours in both a light and dark variant were developed for the brand, inspired by earthy elements. This palette brings forth a more natural tone to the brand that separates itself from cold corporate blues and communicates a more people-focused company rather than just focusing on the technical aspect of the industry.                    
+                    </span>
+                </div>
+                <div class="right-panel">
+                    <span class="comp-title">Services.</span>
+                    <span class="comp-body">
+                        Brand Identity
+                    </span>
+                    <span class="comp-body">
+                        Logo Design
+                    </span>
+                </div>
+            </div>
+
+        </main>          
+        <div id="sticky-header" class="sticky-header" aria-hidden="true">
+            <div class="sticky-inner">
+                <div class="title">
+                    <a href="../">JEREMIAH STEEN.</a>
+                </div>   
+            </div>
+        </div>
+        
+        <script src="../scripts/sticky-header.js" defer></script>
+    </body>
+</html>

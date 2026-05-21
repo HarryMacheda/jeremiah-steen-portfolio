@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Jeremiah Steen — Portfolio</title>
+		<meta name="description" content="Portfolio of Jeremiah Steen" />
+        <meta name="author" content="Jeremiah Steen, Harry Macheda" />
+        <meta name="keywords" content="Jeremiah Steen, Harry Macheda, Design, Portfolio, Web Design, UI/UX, Branding, Typography, 
+            3D Design, 3D Modeling, Photography, Motion Graphics, Publication Design, Logo Design, Product Photography, Live Photography,
+            Anomalous, Enstro, The HERE project, Anex 3D, Who's in Control, Grimshaw Band, Portrait Photography, Web Ux/Ui, Brand Identity" 
+        />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="../styles/variables.css" />
+        <link rel="stylesheet" href="../styles/components.css" />
+        <link rel="stylesheet" href="../styles/menu.css" />
+        <link rel="stylesheet" href="../styles/project-page.css" />
+    </head>
+	<body>
+		<menu>
+            <div class="title">
+                <a href="/">JEREMIAH STEEN.</a>
+            </div>
+            <div class="links">
+                <a href="../">Work</a>
+                <a href="../about.html">About</a>
+                <a href="../about.html">Contact</a>
+            </div>
+        </menu>
+        <main class="project-page"> 
+            <div class="project-hero">
+                <div class="project-hero-image" style="background-image: url('../assets/here/hero.jpg')"></div>
+            </div>
+
+            <div class="project-description">
+                <span class="comp-body">
+                    Melbourne is a city built on ideas. HERE acknowledges the birthplace of all sorts of ideas across many creative fields. It seeks to ensure that the provenance or history of these creative contributions will not be lost. Here seeks to provide the passer-by with a sense of where ideas have been born and cultivated.            </div>
+
+            <div id="project-gallery" class="project-gallery"></div>
+
+            <script>
+                window.projectGalleryConfig = {
+                    basePath: '../assets/here/',
+                    rows: [
+                        [
+                            { src: '1.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '2.jpg', alt: '', description: '' },
+                            { src: '3.jpg', alt: '', description: '' },
+                            { src: '4.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '5.png', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '6.gif', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '7.gif', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '6.gif', alt: '', description: '' },
+                        ]
+                    ]
+                };
+            </script>
+            <script src="../scripts/project-gallery.js" defer></script>
+
+            <div class="project-conclusion">
+                <div class="left-panel">
+                    <span class="comp-title">Brief.</span>
+                    <span class="comp-body">
+                        The HERE project asked for a new brand identity to be developed alongside a new website designed for PC, Tablet and Mobile with a marker system for users to be able to locate these events in person. For the event in situ, HERE also asked for a landmark to be created as a signifier to let onlookers know that this specific spot has a rich creative history.                    
+                    <span class="comp-title" style="margin-top: 2rem;">
+                        Response.
+
+                    </span>
+                    <span class="comp-body">
+                        For the logo, inspired by the complex and symmetrical lines of the early Melbourne Street maps, a symmetrical sans serif typeface was chosen, reflecting the grid system in our road infrastructure. The ‘E’ and ‘R’ have merged to represent the meeting between place and idea. HERE has been italicised to represent motion as the arts are always evolving and never stagnant, and a forward-facing typeface reflects the movement in creative arts forever.                      
+                    </span>
+                    <span class="comp-body">
+                        The logo is aligned so that when stacked on top of one another, pushed one letter forward, they perfectly align on the vertical axis to spell HERE. This reflects the tall buildings of the city and elevation, as well as consideration into making the logo a 3D object and how it will present itself.
+                     </span>
+                     <span class="comp-body">
+                        For the 4 colours I chose. Green was chosen to represent the performance aspect of the arts. Yellow was selected to represent literature through the yellow fading that occurs on aged books. Red was chosen for the Visual Arts as red pigment has been a very popular colour for the arts in history. Orange was chosen to represent Melbourne and Australia, with its beautiful sunny days.
+                     </span>
+                     <span class="comp-body">
+                        For the physical monument, I wanted to create a piece that not only can be seen by the community but is also useful for them as well. I designed a park bench where the back rest has been machined with the HERE branding placed in repetition, spelling the name both vertically and horizontally.
+                     </span>
+                     <span class="comp-body">
+                        The website aims to be simple and easy to navigate, to put more emphasis to the historical events that HERE is trying to promote. A map system of all the HERE markers has been developed, allowing users to find their way to these places through the website.    
+                     </span>
+                </div>
+                <div class="right-panel">
+                    <span class="comp-title">Services.</span>
+                    <span class="comp-body">
+                        Brand identity
+                    </span>
+                    <span class="comp-body">
+                        Web Design UI/UX                    
+                    </span>
+                    <span class="comp-body">
+                        3D Modelling                    
+                    </span>
+                </div>
+            </div>
+
+        </main>          
+        <div id="sticky-header" class="sticky-header" aria-hidden="true">
+            <div class="sticky-inner">
+                <div class="title">
+                    <a href="../">JEREMIAH STEEN.</a>
+                </div>   
+            </div>
+        </div>
+        
+        <script src="../scripts/sticky-header.js" defer></script>
+    </body>
+</html>

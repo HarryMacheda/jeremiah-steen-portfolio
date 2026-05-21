@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Jeremiah Steen — Portfolio</title>
+		<meta name="description" content="Portfolio of Jeremiah Steen" />
+        <meta name="author" content="Jeremiah Steen, Harry Macheda" />
+        <meta name="keywords" content="Jeremiah Steen, Harry Macheda, Design, Portfolio, Web Design, UI/UX, Branding, Typography, 
+            3D Design, 3D Modeling, Photography, Motion Graphics, Publication Design, Logo Design, Product Photography, Live Photography,
+            Anomalous, Enstro, The HERE project, Anex 3D, Who's in Control, Grimshaw Band, Portrait Photography, Web Ux/Ui, Brand Identity" 
+        />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        
+        <!-- Styles -->
+        <link rel="stylesheet" href="../styles/variables.css" />
+        <link rel="stylesheet" href="../styles/components.css" />
+        <link rel="stylesheet" href="../styles/menu.css" />
+        <link rel="stylesheet" href="../styles/project-page.css" />
+    </head>
+	<body>
+		<menu>
+            <div class="title">
+                <a href="/">JEREMIAH STEEN.</a>
+            </div>
+            <div class="links">
+                <a href="../">Work</a>
+                <a href="../about.html">About</a>
+                <a href="../about.html">Contact</a>
+            </div>
+        </menu>
+        <main class="project-page"> 
+            <div class="project-hero">
+                <div class="project-hero-image" style="background-image: url('../assets/anomalous/hero.jpg')"></div>
+            </div>
+
+            <div class="project-description">
+                <span class="comp-body">
+                    Anomalous is a project completed while studying at RMIT. Anomalous is a biannual magazine that explores my personal journey in spending less time on my smartphone by reconnecting with local communities around Melbourne. Each issue, my goal it to attempt a new hobby, learning from like-minded people, documenting my progress, and getting to know the people who make up this wondrous city.
+                </span>
+            </div>
+
+            <div id="project-gallery" class="project-gallery"></div>
+
+            <script>
+                window.projectGalleryConfig = {
+                    basePath: '../assets/anomalous/',
+                    rows: [
+                        [
+                            { src: '1.jpg', alt: '', description: '' },
+                            { src: '2.jpg', alt: '', description: '' },
+                        ],
+                        [
+                           { src: '3.jpg', alt: '', description: '' }
+                        ],
+                        [
+                            { src: '4.jpg', alt: '', description: '' },
+                            { src: '5.jpg', alt: '', description: '' },
+                            { src: '6.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '7.jpg', alt: '', description: '' },
+                        ],
+                        [
+                            { src: '8.jpg', alt: '', description: '' },
+                            { src: '9.jpg', alt: '', description: '' },
+                        ]
+                    ]
+                };
+            </script>
+            <script src="../scripts/project-gallery.js" defer></script>
+
+            <div class="project-conclusion">
+                <div class="left-panel">
+                    <span class="comp-title">Brief.</span>
+                    <span class="comp-body">
+                        The goal of this assignment was to produce an interview based magazine centred around a topic of subculture that I was passionate about and dictate the style and design around our chosen theme.
+                    </span>
+                    <span class="comp-title" style="margin-top: 2rem;">Response.</span>
+                    <span class="comp-body">
+                        For this project, I chose to focus around spending more time with my local communities in the hopes of disconnecting from social media and spending less time on my phone.
+                    </span>
+                    <span class="comp-body">
+                        For this magazine I took a lot of inspiration from magazines produced around the 1960s - 1970s, a time where people were a lot more reliant on their local communities.
+                    </span>
+                    <span class="comp-body">
+                        A strong typographical visual identity was required to reflect the vintage style. Time period typefaces were chosen to reflect the 1960s style. 
+                    </span>
+                    <span class="comp-body">
+                        Paired with a  vibrant orange to contrast with the black and white creating a striking visual on the page.
+                    </span>
+                </div>
+                <div class="right-panel">
+                    <span class="comp-title">Services.</span>
+                    <span class="comp-body">
+                        Publication
+                    </span>
+                    <span class="comp-body">
+                        Photography
+                    </span>
+                </div>
+            </div>
+
+        </main>          
+        <div id="sticky-header" class="sticky-header" aria-hidden="true">
+            <div class="sticky-inner">
+                <div class="title">
+                    <a href="../">JEREMIAH STEEN.</a>
+                </div>   
+            </div>
+        </div>
+        
+        <script src="../scripts/sticky-header.js" defer></script>
+    </body>
+</html>
