@@ -1,18 +1,19 @@
 .project-page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;
 }
 
 .project-page .project-hero {
     width: 100%;
-    height: 1280px;
+    height: auto;
+    
 }
 
 .project-page .project-hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width:100%;
+    height:auto;
 }
 
 .project-page .project-description {
@@ -51,6 +52,7 @@
     width: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -93,7 +95,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    color: #fff;
+    color: var(--theme-background);
     text-align: center;
     font-size: 1rem;
     line-height: 1.4;

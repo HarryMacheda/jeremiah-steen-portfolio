@@ -43,17 +43,12 @@
 
     const createVideoElement = (item) => {
         const video = document.createElement('video');
-        video.controls = true;
+        video.controls = "none";
         video.muted = true;
-        video.playsInline = true;
-        video.preload = 'metadata';
         video.autoplay = true;
-        if (item.poster) {
-            video.poster = config.basePath + item.poster;
-        }
+        video.loop = true;
         const source = document.createElement('source');
         source.src = config.basePath + item.src;
-        source.type = 'video/quicktime';
         video.appendChild(source);
         return video;
     };
