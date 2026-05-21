@@ -5,6 +5,9 @@
     gap: 1rem;
 }
 
+.title, .details {
+    color: var(--theme-dark);
+}
 .project {
     display: flex;
     flex-direction: column;
