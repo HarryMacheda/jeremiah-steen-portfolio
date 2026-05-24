@@ -18,7 +18,7 @@ menu > .links {
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
-    
+    padding: 0 200px;
 }
 
 menu > .links > a {
