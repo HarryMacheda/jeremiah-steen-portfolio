@@ -68,7 +68,7 @@ menu > .links > a {
     display: none;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     padding: 0;
     margin: 0;
     width: 100%;
