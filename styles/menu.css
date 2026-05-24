@@ -51,17 +51,41 @@ menu > .links > a {
 	max-width:1200px;
 	margin:0 auto;
 	display:flex;
-    
+    flex-direction: column;
+    align-items: center;
 	padding:12px 20px;
 }
 .sticky-header .title {
-    width: 100%;  
-    text-align: center;
+    text-align: left;
 }
 .sticky-header .title a {
     text-decoration:none; 
     color:inherit; 
     font-weight: 400;
     font-size: 22px;
+}
+.sticky-header .links {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-top: 12px;
+    transform: translateY(-100%);
+    visibility: hidden;
+    transition: transform 220ms ease, visibility 220ms ease;
+}
+.sticky-header.show-links .links {
+    display: flex;
+    visibility: visible;
+    transform: translateY(0);
+}
+.sticky-header .links a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--theme-dark);
+    white-space: nowrap;
 }
 
