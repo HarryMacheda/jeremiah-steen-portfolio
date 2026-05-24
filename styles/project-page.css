@@ -16,14 +16,14 @@
 }
 
 .project-page .project-description {
-    width:90%;
+    width: var(--page-width);
 }
 
 .project-page .project-description span {
     margin-bottom: 2rem;
     margin-top: 2rem;
     display: block;
-    width: 75%;
+    width: 85%;
     font-size: 30px !important;
 }
 
@@ -32,7 +32,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width : 90%;
+    width : var(--page-width);
     gap: 20rem;
 }
 
@@ -48,7 +48,7 @@
 
 
 .project-gallery {
-    width: 90%;
+    width: var(--page-width);
     display: flex;
     flex-direction: column;
     justify-content: center;
