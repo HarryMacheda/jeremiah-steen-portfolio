@@ -1,11 +1,10 @@
 .projects-container {
     display: grid;
     width: 100%;
-    padding: 0px 120px;
     box-sizing: border-box;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    gap: 1rem;
+    gap: 3rem 1rem;
 }
 
 .title, .details {
@@ -24,11 +23,11 @@
 
 .project-image {
     width: 100%;
-    max-width: 810px;
-    aspect-ratio: 810 / 550;
+    max-width: 900px;
+    aspect-ratio: 900 / 600;
     background-size: cover;
     background-position: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 
@@ -36,13 +35,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     width: 100%;
-    max-width: 810px;
+    max-width: 900px;
 }
 .project-info .title {
     font-weight: 900;
     font-size: 30px;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 20px;
 }
 
 .project-info .title span {
@@ -54,6 +57,8 @@
     font-weight: 500;
     font-family: "Archivo Normal", sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .project-info .details span {

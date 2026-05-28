@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    width: 100%;
 }
 
 .project-page .project-hero {
@@ -16,7 +17,8 @@
 }
 
 .project-page .project-description {
-    width: var(--page-width);
+    width: 100%;
+    padding-left: 200px;
 }
 
 .project-page .project-description span {
@@ -32,7 +34,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width : var(--page-width);
+    width: 100%;
     gap: 20rem;
 }
 
