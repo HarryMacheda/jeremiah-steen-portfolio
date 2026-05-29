@@ -4,7 +4,7 @@
     box-sizing: border-box;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    gap: 3rem 1rem;
+    gap: 48px 16px;
 }
 
 .title, .details {
