@@ -40,58 +40,58 @@
             <main> 
                 <div class="projects-container">
                     <div class="project">
-                        <a href="/projects/anomalous.html">
+                        <div class="project-link" data-href="/projects/anomalous.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/anomalous/hero.jpg')"></div>
                             <div class="project-info">
                                 <div class="title"><span>Anomalous.</span></div>
                                 <div class="details"><span>Publication | Typography</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <a href="/projects/enstro.html">
+                        <div class="project-link" data-href="/projects/enstro.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/enstro/hero.jpg')"></div>
                             <div class="project-info">
                                 <div class="title"><span>Enstro.</span></div>
                                 <div class="details"><span>Brand Identity | Logo Design</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <a href="/projects/here.html">
+                        <div class="project-link" data-href="/projects/here.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/here/hero.jpg')"></div>
                             <div class="project-info">
                                 <div class="title"><span>The HERE project.</span></div>
                                 <div class="details"><span>Brand Identity | Web UX/UI | 3D Modelling</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <a href="/projects/anex.html">
+                        <div class="project-link" data-href="/projects/anex.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/anex/hero.jpg')"></div>
                             <div class="project-info">
                                 <div class="title"><span>Anex 3D.</span></div>
                                 <div class="details"><span>Brand Identity | Product Photography</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <a href="/projects/control.html">
+                        <div class="project-link" data-href="/projects/control.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/control/hero.JPG')"></div>
                             <div class="project-info">
                                 <div class="title"><span>Who's in Control.</span></div>
                                 <div class="details"><span>Portrait Photography</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <a href="/projects/grimshaw.html">
+                        <div class="project-link" data-href="/projects/grimshaw.html" role="link" tabindex="0">
                             <div class="project-image" style="background-image: url('assets/grimshaw/hero.JPG')"></div>
                             <div class="project-info">
                                 <div class="title"><span>Grimshaw Band.</span></div>
                                 <div class="details"><span>Live Photography | Motion Graphics</span></div>
                             </div>
-                        </a>
+                        </div>
                     </div>             
                 </div>
             </main>
@@ -106,5 +106,26 @@
         </div>
 
         <script src="scripts/sticky-header.js" defer></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                document.querySelectorAll('.project-link').forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        var href = this.dataset.href;
+                        if (href) {
+                            window.location.href = href;
+                        }
+                    });
+                    link.addEventListener('keydown', function (event) {
+                        if (event.key === 'Enter' || event.key === ' ') {
+                            event.preventDefault();
+                            var href = this.dataset.href;
+                            if (href) {
+                                window.location.href = href;
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
 	</body>
 </html>
