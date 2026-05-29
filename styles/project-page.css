@@ -17,8 +17,9 @@
 }
 
 .project-page .project-description {
-    width: 100%;
-    padding-left: 200px;
+    width: var(--page-width);
+    padding-left: calc((100% - var(--page-width)) / 2);
+    padding-right: calc((100% - var(--page-width)) / 2);
 }
 
 .project-page .project-description span {
@@ -34,7 +35,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    width: 100%;
+    width: var(--page-width);
+    padding-left: calc((100% - var(--page-width)) / 2);
+    padding-right: calc((100% - var(--page-width)) / 2);
     gap: 20rem;
 }
 
