@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 import { analyzer } from 'vite-bundle-analyzer'
 import { imageResizePlugin } from './src/build/image-resize'
+import { imageWebpPlugin } from './src/build/image-convert'
 
 const MAX_IMAGE_WIDTH = 1600
 const MAX_IMAGE_HEIGHT = 1600
@@ -16,6 +17,13 @@ export default defineConfig({
       maxWidth: MAX_IMAGE_WIDTH,
       maxHeight: MAX_IMAGE_HEIGHT,
       includePublic: true,
+    }),
+    imageWebpPlugin({
+      quality: 80,
+      lossless: false,
+      includePublic: true,
+      overwrite: false,
+      replaceOriginals: true,
     }),
     react(),
     ViteImageOptimizer({

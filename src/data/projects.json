@@ -16,61 +16,61 @@
             "Publication",
             "Photography"
         ],
-        "hero": "hero.jpg",
+        "hero": "hero.webp",
         "banner": "",
         "assetPath": "/assets/anomalous",
         "gallery": [
             [
                 {
-                    "src": "1.jpg",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.jpg",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "3.jpg",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "4.jpg",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "5.jpg",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "6.jpg",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "7.jpg",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "8.jpg",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "9.jpg",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -93,61 +93,61 @@
             "Brand Identity",
             "Logo Design"
         ],
-        "hero": "hero.jpg",
+        "hero": "hero.webp",
         "banner": "",
         "assetPath": "/assets/enstro",
         "gallery": [
             [
                 {
-                    "src": "1.jpg",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.jpg",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "3.jpg",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "4.jpg",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "5.jpg",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "6.jpg",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "7.jpg",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "8.jpg",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "9.jpg",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -173,58 +173,58 @@
             "Web Design UI/UX",
             "3D Modelling"
         ],
-        "hero": "hero.jpg",
+        "hero": "hero.webp",
         "banner": "",
         "assetPath": "/assets/here",
         "gallery": [
             [
                 {
-                    "src": "1.jpg",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "2.jpg",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "3.jpg",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "4.jpg",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "5.png",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "6.gif",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "8.gif",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "7.gif",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -245,59 +245,59 @@
             "Brand identity",
             "Product photography"
         ],
-        "hero": "hero.jpg",
-        "banner": "banner.jpg",
+        "hero": "hero.webp",
+        "banner": "banner.webp",
         "assetPath": "/assets/anex",
         "gallery": [
             [
                 {
-                    "src": "1.jpg",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.jpg",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "3.jpg",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "4.jpg",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "5.jpg",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "6.jpg",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "7.jpg",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "8.jpg",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "9.jpg",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -315,68 +315,68 @@
             "Through my work, I want to create a space for reflection, to consider how much you see on a day-to-day basis, whether it is by your own choice or is being fed to you by an algorithm that only sees you as a sheep to exploit for their gain, trying to manipulate your own thoughts and stop you from questioning what’s truly going on around you."
         ],
         "services": [],
-        "hero": "hero.JPG",
-        "banner": "banner.jpeg",
+        "hero": "hero.webp",
+        "banner": "banner.webp",
         "assetPath": "/assets/control",
         "gallery": [
             [
                 {
-                    "src": "1.JPG",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.JPG",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "3.JPG",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "4.JPG",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "5.JPG",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "6.JPG",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "7.JPG",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "8.JPG",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "9.JPG",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "10.JPG",
+                    "src": "10.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -398,68 +398,68 @@
             "Live Photography",
             "Motion Graphics"
         ],
-        "hero": "hero.JPG",
-        "banner": "banner.JPG",
+        "hero": "hero.webp",
+        "banner": "banner.webp",
         "assetPath": "/assets/grimshaw",
         "gallery": [
             [
                 {
-                    "src": "1.JPG",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.JPG",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "3.JPG",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "4.JPG",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "5.JPG",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "6.JPG",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "7.JPG",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "8.JPG",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "9.JPG",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "10.JPG",
+                    "src": "10.webp",
                     "alt": "",
                     "description": ""
                 },
@@ -471,7 +471,7 @@
             ],
             [
                 {
-                    "src": "12.JPG",
+                    "src": "12.webp",
                     "alt": "",
                     "description": ""
                 }
@@ -497,147 +497,147 @@
             "Publication",
             "Photography"
         ],
-        "hero": "hero.jpg",
+        "hero": "hero.webp",
         "banner": "",
         "assetPath": "/assets/century",
         "gallery": [
             [
                 {
-                    "src": "1.jpg",
+                    "src": "1.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "2.jpg",
+                    "src": "2.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "3.jpg",
+                    "src": "3.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "4.jpg",
+                    "src": "4.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "5.jpg",
+                    "src": "5.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "6.jpg",
+                    "src": "6.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "7.jpg",
+                    "src": "7.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "8.jpg",
+                    "src": "8.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "9.jpg",
+                    "src": "9.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "10.jpg",
+                    "src": "10.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "11.jpg",
+                    "src": "11.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "12.jpg",
+                    "src": "12.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "13.jpg",
+                    "src": "13.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "14.jpg",
+                    "src": "14.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "15.jpg",
+                    "src": "15.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "16.jpg",
+                    "src": "16.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "17.jpg",
+                    "src": "17.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "18.jpg",
+                    "src": "18.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "19.jpg",
+                    "src": "19.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "20.jpg",
+                    "src": "20.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "21.jpg",
+                    "src": "21.webp",
                     "alt": "",
                     "description": ""
                 },
                 {
-                    "src": "22.jpg",
+                    "src": "22.webp",
                     "alt": "",
                     "description": ""
                 }
             ],
             [
                 {
-                    "src": "23.jpg",
+                    "src": "23.webp",
                     "alt": "",
                     "description": ""
                 }

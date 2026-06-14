@@ -1,21 +1,11 @@
 import fs from 'fs'
-import { join, resolve } from 'path'
+import {resolve } from 'path'
 import sharp from 'sharp'
+import { readAllFiles } from './common'
 
 const IMAGE_REGEX = /\.(jpe?g|png|gif|tiff|webp|avif)$/i
 
 // Uses the sharp library to resize images in the bundle.
-
-function readAllFiles(dir: string): string[] {
-  if (!fs.existsSync(dir)) {
-    return []
-  }
-
-  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
-    const fullPath = join(dir, entry.name)
-    return entry.isDirectory() ? readAllFiles(fullPath) : [fullPath]
-  })
-}
 
 export function imageResizePlugin({
   maxWidth = 2000,
