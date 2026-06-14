@@ -8,7 +8,7 @@ interface GalleryItemProps {
 }
 
 function GalleryItem({ item, assetPath, columnCount }: GalleryItemProps) {
-  const mediaUrl = `${assetPath}/${item.src}`;
+  const mediaUrl = `${import.meta.env.BASE_URL}${assetPath.replace(/^\//, '')}/${item.src}`;
   const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(item.src);
 
   return (

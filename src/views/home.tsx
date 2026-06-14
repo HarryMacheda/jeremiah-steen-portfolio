@@ -34,7 +34,7 @@ function Home() {
 }
 
 function ProjectCard({ project }: { project: Project }) {
-    const heroUrl = `${project.assetPath}/${project.hero}`;
+    const heroUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.hero}`;
     const details = project.services.join(' | ');
 
     return (

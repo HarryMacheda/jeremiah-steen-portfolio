@@ -10,6 +10,7 @@ const MAX_IMAGE_HEIGHT = 1600
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/jerry-portfolio/',
   plugins: [
     imageResizePlugin({
       maxWidth: MAX_IMAGE_WIDTH,

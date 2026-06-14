@@ -17,7 +17,7 @@ function ProjectPage() {
     return <Navigate to="/" replace />;
   }
 
-  const heroUrl = `${project.assetPath}/${project.hero}`;
+  const heroUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.hero}`;
 
   return (
     <>
