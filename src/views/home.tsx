@@ -66,7 +66,7 @@ function ProjectCard({ project }: { project: Project }) {
                     marginTop: '12px',
                 }}
             >
-                <Typography sx={{maxWidth: '50%'}} variant="h2">{project.title}</Typography>
+                <Typography sx={{maxWidth: '50%'}} variant="h2">{project.title}.</Typography>
                 <Typography variant="body2">{details}</Typography>
             </Box>
         </Link>
