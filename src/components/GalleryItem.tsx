@@ -1,4 +1,5 @@
 import { Box, Grid } from '@mui/material';
+import { useState } from 'react'
 import type { ProjectGalleryItem } from '../data/projects';
 
 interface GalleryItemProps {
@@ -10,6 +11,7 @@ interface GalleryItemProps {
 function GalleryItem({ item, assetPath, columnCount }: GalleryItemProps) {
   const mediaUrl = `${import.meta.env.BASE_URL}${assetPath.replace(/^\//, '')}/${item.src}`;
   const isVideo = /\.(mp4|webm|ogg|mov)$/i.test(item.src);
+  const [_, setAspectRatio] = useState('900 / 600')
 
   return (
     <Grid size={12 / columnCount} key={mediaUrl}>
@@ -23,25 +25,40 @@ function GalleryItem({ item, assetPath, columnCount }: GalleryItemProps) {
           playsInline
           controls={false}
           aria-label={item.alt || item.description || 'Gallery video'}
+          onLoadedMetadata={(e: any) => {
+            const video = e.currentTarget as HTMLVideoElement
+            if (video.videoHeight > video.videoWidth) {
+              setAspectRatio(`${video.videoWidth} / ${video.videoHeight}`)
+            } else {
+              setAspectRatio('900 / 600')
+            }
+          }}
           sx={{
             width: '100%',
-            aspectRatio: '900 / 600',
+            height: '100%',
             borderRadius: '8px',
             objectFit: 'cover',
-            backgroundColor: 'black',
           }}
         />
       ) : (
         <Box
+          component="img"
+          src={mediaUrl}
+          alt={item.alt || item.description || 'Gallery image'}
+          onLoad={(e: any) => {
+            const img = e.currentTarget as HTMLImageElement
+            if (img.naturalHeight > img.naturalWidth) {
+              setAspectRatio(`${img.naturalWidth} / ${img.naturalHeight}`)
+            } else {
+              setAspectRatio('900 / 600')
+            }
+          }}
           sx={{
             width: '100%',
-            backgroundImage: `url(${mediaUrl})`,
-            aspectRatio: '900 / 600',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            height: '100%',
             borderRadius: '8px',
+            objectFit: 'cover',
           }}
-          aria-hidden="true"
         />
       )}
     </Grid>
