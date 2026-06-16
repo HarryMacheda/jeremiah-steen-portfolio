@@ -8,6 +8,7 @@ function About() {
         justifyContent: 'center',
       }}
     >
+      <title>Jeremiah Steen — Portfolio</title>
       <Box
         sx={{
           boxSizing: 'border-box',

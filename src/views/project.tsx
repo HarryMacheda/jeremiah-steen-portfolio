@@ -21,6 +21,7 @@ function ProjectPage() {
 
   return (
     <>
+        <title>Jeremiah Steen — Portfolio</title>
         <img 
             src={heroUrl} 
             alt={project.title} 

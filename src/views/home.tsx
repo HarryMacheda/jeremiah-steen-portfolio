@@ -11,6 +11,7 @@ function Home() {
             justifyContent: 'center',
         }}
     >
+        <title>Jeremiah Steen — Portfolio</title>
         <Box
             sx={{
                 boxSizing: 'border-box',
