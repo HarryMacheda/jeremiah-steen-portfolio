@@ -67,8 +67,8 @@ function ProjectPage() {
                     })}
                 </Grid>
 
-                <Grid container rowSpacing={3} columnSpacing={{ xs: 2, sm: 2, md: 2}} sx={{marginTop: '32px'}}>
-                    <Grid size={6} sx={{paddingRight: '280px', display: 'flex', flexDirection: 'column', gap: '24px'}}>
+                <Grid container rowSpacing={3} columnSpacing={{ xs: 12, sm: 12, md: 12}} sx={{marginTop: '32px'}}>
+                    <Grid size={6} sx={{ display: 'flex', flexDirection: 'column', gap: '24px'}}>
                         {project.brief.length > 0 && (
                             <>
                                 <Typography variant="h1">Brief.</Typography>
