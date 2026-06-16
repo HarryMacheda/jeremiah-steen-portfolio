@@ -8,7 +8,7 @@ function About() {
         justifyContent: 'center',
       }}
     >
-      <title>Jeremiah Steen — Portfolio</title>
+      <title>Jeremiah Steen — About</title>
       <Box
         sx={{
           boxSizing: 'border-box',

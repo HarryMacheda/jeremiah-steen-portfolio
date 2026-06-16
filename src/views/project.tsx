@@ -18,10 +18,9 @@ function ProjectPage() {
   }
 
   const heroUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.hero}`;
-
   return (
     <>
-        <title>Jeremiah Steen — Portfolio</title>
+        <title>{`Jeremiah Steen — ${project.title}`}</title>
         <img 
             src={heroUrl} 
             alt={project.title} 
