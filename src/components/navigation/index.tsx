@@ -9,6 +9,13 @@ export function Navigation() {
   const animationFrame = useRef<number | null>(null);
 
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (window.location.pathname === '/about') {
+      setIsShrunk(false);
+      setShowLinks(true);
+      return;
+    }
+
     const SCROLL_THRESHOLD = 24;
 
     const handleScroll = () => {
@@ -43,7 +50,7 @@ export function Navigation() {
         window.cancelAnimationFrame(animationFrame.current);
       }
     };
-  }, []);
+  }, [window.location.pathname]);
 
   return (
     <AppBar

@@ -34,7 +34,7 @@ function About() {
               visibility and typographic systems through a humanist approach.
             </Typography>
             <Typography variant="body1">
-              Jeremiah’s work is typographically and photographically focused. I believe that language is the strongest
+              My work is typographically and photographically focused. I believe that language is the strongest
               tool we have as designers, not just as a way to communicate ideas and information, but to communicate tone
               and personality through expression. Letters are so much more than written text; they’re living, breathing
               forms of communication.

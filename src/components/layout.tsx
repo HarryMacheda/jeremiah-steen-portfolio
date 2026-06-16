@@ -12,7 +12,7 @@ export function Layout() {
   return (
     <>
       <Navigation />
-      <main style={{ marginTop: '200px' }}>
+      <main style={{ margin: '200px 0px' }}>
         <Outlet />
       </main>
     </>
