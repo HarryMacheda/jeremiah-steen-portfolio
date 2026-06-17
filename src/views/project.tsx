@@ -17,12 +17,12 @@ function ProjectPage() {
     return <Navigate to="/" replace />;
   }
 
-  const heroUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.hero}`;
+  const bannerUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.banner}`;
   return (
     <>
         <title>{`Jeremiah Steen — ${project.title}`}</title>
         <img 
-            src={heroUrl} 
+            src={bannerUrl} 
             alt={project.title} 
             style={{
                 width: '100%',
