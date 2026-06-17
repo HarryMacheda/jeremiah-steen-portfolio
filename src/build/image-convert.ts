@@ -43,7 +43,17 @@ export function imageWebpPlugin({
             return
           }
 
-          const webpBuffer = await sharp(source).webp({ quality, lossless }).toBuffer()
+          const sharpImage = sharp(source, { animated: true, pages: -1 })
+          const metadata = await sharpImage.metadata()
+          const webpOptions: any = {
+            quality,
+            lossless,
+            animated: true,
+          }
+          if (metadata.loop !== undefined) webpOptions.loop = metadata.loop
+          if (metadata.delay !== undefined) webpOptions.delay = metadata.delay
+
+          const webpBuffer = await sharpImage.webp(webpOptions).toBuffer()
           bundle[webpName] = {
             type: 'asset',
             fileName: webpName,
@@ -77,7 +87,17 @@ export function imageWebpPlugin({
           }
 
           const source = await fs.promises.readFile(outputFilePath)
-          const webpBuffer = await sharp(source).webp({ quality, lossless }).toBuffer()
+          const sharpImage = sharp(source, { animated: true, pages: -1 })
+          const metadata = await sharpImage.metadata()
+          const webpOptions: any = {
+            quality,
+            lossless,
+            animated: true,
+          }
+          if (metadata.loop !== undefined) webpOptions.loop = metadata.loop
+          if (metadata.delay !== undefined) webpOptions.delay = metadata.delay
+
+          const webpBuffer = await sharpImage.webp(webpOptions).toBuffer()
           await fs.promises.writeFile(webpOutputFilePath, webpBuffer)
           if (replaceOriginals) {
             try {

@@ -38,16 +38,21 @@ export function imageResizePlugin({
             ? asset.source
             : Buffer.from(String(asset.source))
 
-          const metadata = await sharp(source).metadata()
+          const sharpImage = sharp(source, { animated: true, pages: -1 })
+          const metadata = await sharpImage.metadata()
           if (!metadata.width || !metadata.height) {
             return
           }
 
-          if (metadata.width <= maxWidth && metadata.height <= maxHeight) {
+          const frameHeight = metadata.pageHeight || (metadata.height / (metadata.pages || 1))
+          const outputWidth = metadata.width
+          const outputHeight = metadata.pageHeight ? frameHeight : metadata.height
+
+          if (outputWidth <= maxWidth && outputHeight <= maxHeight) {
             return
           }
 
-          asset.source = await sharp(source)
+          asset.source = await sharpImage
             .resize({
               width: maxWidth,
               height: maxHeight,
@@ -74,16 +79,21 @@ export function imageResizePlugin({
           }
 
           const source = await fs.promises.readFile(outputFilePath)
-          const metadata = await sharp(source).metadata()
+          const sharpImage = sharp(source, { animated: true, pages: -1 })
+          const metadata = await sharpImage.metadata()
           if (!metadata.width || !metadata.height) {
             return
           }
 
-          if (metadata.width <= maxWidth && metadata.height <= maxHeight) {
+          const frameHeight = metadata.pageHeight || (metadata.height / (metadata.pages || 1))
+          const outputWidth = metadata.width
+          const outputHeight = metadata.pageHeight ? frameHeight : metadata.height
+
+          if (outputWidth <= maxWidth && outputHeight <= maxHeight) {
             return
           }
 
-          const resized = await sharp(source)
+          const resized = await sharpImage
             .resize({
               width: maxWidth,
               height: maxHeight,
