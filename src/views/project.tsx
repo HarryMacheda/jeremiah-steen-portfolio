@@ -17,7 +17,7 @@ function ProjectPage() {
     return <Navigate to="/" replace />;
   }
 
-  const bannerUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${project.banner}`;
+  const bannerUrl = `${import.meta.env.BASE_URL}${project.assetPath.replace(/^\//, '')}/${(project.banner != null && project.banner !== '') ? project.banner : project.hero}`;
   return (
     <>
         <title>{`Jeremiah Steen — ${project.title}`}</title>
